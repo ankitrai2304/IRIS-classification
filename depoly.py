@@ -73,9 +73,9 @@ st.write(prediction_probability)
 #uploaded_image = st.sidebar.file_uploader("Upload an image of an Iris flower", type=["jpg", "jpeg", "png"])
 
 # Load species-specific images
-setose_image = Image.open(r"C:/NORMAL_USE/py/my_venv/iris_spec/setose.webp")
-versicolor_image = Image.open(r"C:/NORMAL_USE/py/my_venv/iris_spec/versicolor.webp")
-virginica_image = Image.open(r"C:/NORMAL_USE/py/my_venv/iris_spec/virginica.webp")
+setose_image = Image.open(r"/workspaces/IRIS-classification/setose.webp")
+versicolor_image = Image.open(r"/workspaces/IRIS-classification/versicolor.webp")
+virginica_image = Image.open(r"/workspaces/IRIS-classification/virginica.webp")
 image_size_in_pixels = int((.2 / 100.54) * 1)
 # Display uploaded image
     #if uploaded_image is not None:
